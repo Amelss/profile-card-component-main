@@ -1,0 +1,183 @@
+body{
+    background-color:hsl(185, 75%, 39%) ;
+    font-family:'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+
+.circle{
+    position:relative;    
+}
+
+.topcircle{
+    z-index: -1;
+    margin-top: 40px;
+    position:absolute;
+    margin-top: -400px;
+    margin-left: 50px;
+}
+
+.circle2{
+    position:relative;
+      overflow: none; 
+}
+
+.bottom-circle{
+    z-index: -1;
+    position:absolute;
+    margin-left: 500px;
+    margin-top: 110px;
+   
+    
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    z-index: 2;
+   
+}
+
+.bubbles{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.victor{
+    margin-left: 37%;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: white;
+    margin-top: -50px;
+    border-width: 5px;
+
+}
+
+.numbers{
+    display: inline-flex;
+    margin-left: 17%;
+    font-size: 18px;
+    margin-bottom: -27px;
+    margin-top: 20px;
+}
+
+p{
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+
+}
+.name{
+    margin-left: 33%;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: -9px;
+}
+
+.location{
+    margin-left:46%;
+    font-weight: 400;
+    margin-top: -20px;
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+    margin-bottom: -3px;
+}
+
+hr {
+    border: 0 none;
+    color: hsl(0, 0%, 91%);
+    height: 0px;
+    border-top: 1px solid;
+   
+}
+
+.age{
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.desc2{
+    margin-left: 30px;
+}
+
+.desc{
+    margin-left: 50px;
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        width: 95%;
+        margin: 170px auto;
+    }
+    .desc3{
+        margin-left: 30px;
+    }
+
+    .desc2{
+        margin-left: 17px;
+    }
+    .stats{
+        margin-right: 13px;
+    }
+   .topcircle{
+        margin-top: -550px;
+        margin-left: -650px;
+        background-position: top left 0% 0%;
+        width: 100px;
+    }
+ 
+}
+
+@media screen and (min-width:1440px) {
+    .container{
+        width: 25%;
+    }
+
+    .desc3{
+        margin-left: 30px;
+    }
+
+   .topcircle{
+    margin-left: -170px;
+   }
+
+   .bottom-circle{
+       margin-top: 100px;
+       margin-left: 375px;
+   }
+}
+
+@media screen and (min-width:1800px) {
+
+    .desc, .desc2, .desc3{
+        margin-left: 40px;
+    }
+
+
+    .desc{
+        margin-left: 50px;
+    }
+
+
+    .container{
+        width: 20%;
+    }
+
+    .topcircle{
+        margin-left: 40px;
+    }
+
+    .bottom-circle{
+        margin-top: 110px;
+        margin-left: 500px ;
+    }
+}
